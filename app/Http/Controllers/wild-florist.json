@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wild-florist-d20",
+  "private_key_id": "2a27e2be8e0e92bda33ac4c04dca005434e37a81",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMEWMeOxRRjADG\nQAiGzDFSXJ1eP3Ood+Piv1qDOWbPXy/cGXMk5LlLRzvoy9VE0ZLl2CLBmqE2ADO4\nsPuGB1gA+BId5Hbek7a2JFs2p6DVzs/H2N+RVDNkMtfehBIIFU+1RvOYAo5A9Wlc\nsTzUD8DJN63uJSqvVJfgHFtTA0K7jOaHzteIVnLHI5hw9FlFmy9UkWIYVPaB9/Y8\nIurW8+CwOS0HHIj4e/s1VvshOqQx7eL/rIY1RGLX+iMbtk/3b7oo7OZ6+GUUhC9a\nMJ52Po2luKdNQEZS43vai4BnL1w3QosXWi+JXstCtUx+3Gzh3ObRhbIcZqS4+P6M\n74rCzPs7AgMBAAECggEASlqfedle6uOPOK0GLk9iPTc/o6KM+rpMT0cXrK6SlkaB\ngrnHKY8pMJOQ8Z6rY3rVAmhBKbe0u59ROR9LVieA2kGJIFkpMqoxraYLkht7z8ue\nC5wqwaIjY4PfAdWvWECjnVJv2Vg9CtAghsSRfFcNEIP4HMhwCBhTijXq1JFglEL5\nAJwxIjp23rew1KL6hA0zBfoF03j3Y8rYOGvsmWaTBlLMCcj9WO19zYGXtKFGKyZq\ns2LZkuTw/MFRwKqkKp2HLFbf9mDDGP3fMMvNCNOZm6zLc8QtZGktOk0sik411u41\nGa3Q+7eYp2CRZqdmp2cXikUKwvy45ZwLWjTdQe/nCQKBgQDk6xBZncGao3NjPWui\nk0hsCI+yjLQyzxQ32hv5FnKKpI9ib5CBLWLVfBCn4So5G0HDjLgs3qLqGC7xMg1z\nOBGP4IvqffikvhPl2eashKk/L05DcjiaBIMRCg1Urv2jyMK/6S+iINBRlEUpJVak\nwqDu0dUa28vBAYHuceJYcMULnwKBgQDkNbdHkYoZ4Hwe5hF0a7g+j9NJ4CRBaZms\nkq0awVbuXdmlEC/aMDUArwV+p/K2n0e5lTkD/lcSODHfX8P6DiLfA5VfjIJuh87P\nSdwftuQnF9gEzLjHEcmqmPoHZz6opjQa5ps4UrZUujT+iEnZgJz96anIaBLSy7pV\n+Err5e6q5QKBgBQ6TSyOCxB+BvEq+TrZZtnc+82cL0QaFkBFLpmZCTAFEIJzN0Ki\n3wvcNaCP/eoj5XDBG3kjhyPGVUeM07Ftr+eVwOdMkE8GWL3DvmVaJ5ZkuLau/h9l\n7Krxx3HHMLRrRgItOb9KxP2ga2gSW5Cdfhj8Q6dm6p84YeHPAGAuPssjAoGBAKD3\nSomOnIxYDPR2bwVhHZnzNKM9GBWTeLOC2dqvWLPVOrj0y+voaNpMmWGW8NnjS2IZ\nYRfyBFRzkqnuEHuGEQ6gpnG42B9CZ5tKi5tLE26HoPTxubugTlCoimNCba3jXYlD\n82Qs4zKsDMkkNILX9uQaNomG7xAEZzBQa/gsPMYJAoGBAOH/dkn8TQ4nquAFkBM4\nWLhqrOn8HvLzastzlkH1sElmQCn/9kYfr2WF25xsvG6T/USkU5p7cxCvykhxM3MV\nCW+e9TQWBesKFeweZWkoYsISsbYwp3ANgx6GF+lxoZoS25J1gpmWqVGYyguYm1fj\n7Y+vXbvizfbX6tHJ/02UKBzq\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-t01o7@wild-florist-d20.iam.gserviceaccount.com",
+  "client_id": "113501445367785178193",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-t01o7%40wild-florist-d20.iam.gserviceaccount.com"
+}
