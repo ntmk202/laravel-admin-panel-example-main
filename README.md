@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+##Install
+set file .env with db_name: adminDashboard
+composer upgrade
+php artisan cache:clear
+php artisan config:clear
+php artisan key:generate
+composer dump-autoload
+php artisan migrate
+php artisan db:seed
+php artisan serv
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
