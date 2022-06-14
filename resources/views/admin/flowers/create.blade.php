@@ -1,3 +1,7 @@
+<?php
+$rand = rand(1000,100000);
+$id = "WFL" . ($rand);
+?>
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
@@ -10,12 +14,17 @@
     <div class="ml-4 px-2">
         <div class="p-6 bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-t-lg">
 
-        <form method="post" action="{{ route('add-flowers') }}">
+        <form method="post" action="{{ url('add-flowers') }}">
             <!-- {!! csrf_field() !!} -->
             @csrf
 
             <div class=" mb-3">
-                <x-label for="name_flower" :value="__('Name flower')" />
+                <x-label for="flower_id" :value="__('Flower Id')" />
+                <x-input id="flower_id" class="block mt-1 w-2/5 text-red-500 bg-gray-300" type="text" name="flower_id" value=" <?php echo $id; ?> " readonly  />
+            </div>
+
+            <div class=" mb-3">
+                <x-label for="name_flower" :value="__('Name Flower')" />
                 <x-input id="name_flower" class="block mt-1 w-2/5 text-black" type="text" name="name_flower" :value="old('Name flower')"  />
             </div>
 

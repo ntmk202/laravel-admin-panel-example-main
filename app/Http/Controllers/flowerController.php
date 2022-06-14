@@ -3,10 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Kreait\Firebase;
 use Kreait\Firebase\Factory;
-use Kreait\Firebase\ServiceAccount;
-use Kreait\Firebase\Database;
+use App\Helpers\Helper;
 
 class flowerController extends Controller
 {
@@ -63,7 +61,10 @@ class flowerController extends Controller
 
         $database = $firebase->createDatabase();
 
+        // $flower_id = Helper::IDGenerator('Flowers', 'id',2,'WFL'); /** Generate id */
+        // $fid = rand(1000, 10000);
         $postData = [
+            'id' => $request->flower_id,
             'name'=> $request->name_flower,
             'info'=> $request->info,
             'img'=> $request->image,

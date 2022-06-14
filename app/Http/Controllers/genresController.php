@@ -5,13 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Kreait\Firebase\Factory;
 
-class FirebaseController extends Controller
+class genresController extends Controller
 {
-
-    // protected $userRepository;
-    // protected $database;
-    // protected $firebase;
-
     /**
      * Display a listing of the resource.
      *
@@ -19,16 +14,19 @@ class FirebaseController extends Controller
      */
     public function index()
     {
-        // $factory = (new Factory)->withServiceAccount(__DIR__ . '/wild-florist.json'); // đường dẫn của file json ta vừa tải phía trên
+        $factory = (new Factory)->withServiceAccount(__DIR__ . '/wild-florist.json'); // đường dẫn của file json ta vừa tải phía trên
 
-        // $factory = (new Factory())
-        //     ->withProjectId('my-project')
-        //     ->withDatabaseUri('https://wild-florist-d20-default-rtdb.firebaseio.com');
-        // $this->database = $this->firebase->getDatabase();
+        $firebase = (new Factory())
+            ->withProjectId('my-project')
+            ->withDatabaseUri('https://wild-florist-d20-default-rtdb.firebaseio.com');
 
-        // $this->userRepository = $this->database->getReference('Flowers'); //lấy model user.
+        $database = $firebase->createDatabase();
+
+        $ref = $database->getReference('Categories'); //lấy model user.
     
-        
+        $genres = $ref->getValue();
+
+        return view('admin.genres.index', compact('genres'));
     }
 
     /**
